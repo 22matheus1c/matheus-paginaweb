@@ -24,9 +24,9 @@
             img{
                 width: 80px;
                 height: 80px;
-            }div 
-            p{
-            font-weight: bold;
+            }
+            .artigo-autor {
+                font-weight: bold;
             }
         </style>
     </head>
@@ -39,9 +39,19 @@
             <img src="imagem-blog.png" alt="">
             <div>
                 <h2>Meu primeiro post</h2>
-                <p>Por:Matheus 🇧🇷​</p>
+                <p class="artigo-autor">Por:Matheus 🇧🇷​</p>
                 <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar conhecimentos sobre futebol ⚽​.</p>
+                <button>🇧🇷 <span>0</span>0</button>
             </div>
         </main>
      </body>
+     <script>
+        const botao = document.querySelector("button");
+        botao.addEventListener("click", botaClicado);
+
+        function botaoClicado(){
+            console.log("fui clicado)
+        }
+
+     </script>
 </html>
