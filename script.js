@@ -15,7 +15,7 @@
                 } else {
                     texto.textContent = contador - 1;
                     curtido = false;
-                    botao.style.opacity = "1";
+                    botao.style.opacity = "0";
                 }
             });
         });
