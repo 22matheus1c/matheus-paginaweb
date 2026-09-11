@@ -15,9 +15,13 @@ header {
             color: #000000;
             margin: 0 auto;
             padding: 16px;
+
+            display: flex;
         }
         article{
             display: flex;
+
+            border: 1px solid #ff0202;
         }
 
         img {
