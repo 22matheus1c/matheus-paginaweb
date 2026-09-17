@@ -1,46 +1,76 @@
-body {
-max-width: 100WW;
+bbody {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 header {
-background-color: #05e0e7;
-color: #FFFFFF;
-text-align: center;
-margin: 0 auto;
-padding: 16px;
+    background-color: #fa0505;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 24px 16px;
 }
 
 main {
-background-color: #FFFFFF;
-color: #32345E;
-margin: 0 auto;
-padding: 16px;
+    background-color: #FFFFFF;
+    color: #32345E;
+    margin: 20px auto;
+    padding: 16px;
+    max-width: 1200px;
 
-display: flex;
-flex-wrap: wrap;
-gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 article {
-display: flex;
-border: 1px solid #32345E;
-padding: 16px;
+    display: flex;
+    border: 1px solid #32345E;
+    padding: 16px;
+    box-sizing: border-box;
 
-
-flex: 1 1 30%;
-
-flex-direction: column;
-align-items: center;
-text-align: center;
-justify-content: center;
+    /* Ocupa aproximadamente 30% da largura em telas grandes */
+    flex: 1 1 calc(33.333% - 16px);
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+/* Faz o 4º artigo ocupar toda a largura da linha inferior */
+article.post-destaque {
+    flex: 1 1 100%;
+}
 
 img {
-width: 80px;
-height: 80px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 12px;
 }
 
 .artigo-autor {
-font-weight: bold;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+.botoes {
+    display: flex;
+    gap: 8px;
+    margin-top: auto;
+}
+
+button {
+    cursor: pointer;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 4px;
 }
