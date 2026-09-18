@@ -11,7 +11,7 @@
                 if (!curtido) {
                     texto.textContent = contador + 1;
                     curtido = true;
-                    botao.style.opacity = "0.7"; // efeito visual opcional de "curtido"
+                    botao.style.opacity = "0.7";
                 } else {
                     texto.textContent = contador - 1;
                     curtido = false;
