@@ -1,3 +1,21 @@
+:root {
+    --cor-primaria: #0112ff;
+    --cor-secundaria: #000000;
+    --cor-fundo:#fdfdfd;
+    --cor-texto: #f7d200;
+    --cor-contraste: #444343;
+    --cor-botao: #f8f5f5;
+}
+
+.tema-escuro {
+    --cor-primaria: #01f7ff;
+    --cor-secundaria: #f7f7f7;
+    --cor-fundo:#000000;
+    --cor-texto: #b9a42c;
+    --cor-contraste: #ff0000;
+    --cor-botao: #ffffff;
+}
+
 body {
 max-width: 100WW;
 }
