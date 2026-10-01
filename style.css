@@ -89,5 +89,5 @@ color: var(--cor-contraste);
     font-size: 32px;
     padding: 12px;
     background-color: var(--cor-primario);
-    border-radius: 50%;
+    border-radius: 30%;
 }

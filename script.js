@@ -20,3 +20,16 @@ botao.style.opacity = "1";
 });
 });
 });
+
+const btnTemaEscuro = document.querySelector(".btn-tema-escuro");
+
+btnTemaEscuro.addEventListener("click", mudaTema);
+
+function mudaTema() {
+const corpo = document.body;
+if (corpoPagina.classList.contains("tema-escuro")) {
+corpoPagina.classList.contains("tema-escuro");
+} else {
+corpoPagina.classList.add("tema-escuro");
+}
+}
