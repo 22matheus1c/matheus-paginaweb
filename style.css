@@ -81,3 +81,13 @@ color: var(--cor-texto);
 .tema-escuro header p {
 color: var(--cor-contraste);
 }
+
+.btn-tema-escuro{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    font-size: 32px;
+    padding: 12px;
+    background-color: var(--cor-primario);
+    border-radius: 50%;
+}
